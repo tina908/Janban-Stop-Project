@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="10dp" />
+
+        <!-- 첫 번째 날짜와 별점 요소 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/userview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="김이름"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/uidview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="187 172 183 47"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+
+
+
+
+
+            <RatingBar
+                android:id="@+id/starview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.5" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/userview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이이름"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/uidview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 172 183 47"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+
+
+            <RatingBar
+                android:id="@+id/starview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.5" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/userview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="박이름"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/uidview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="87 152 28 29"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+
+
+            <RatingBar
+                android:id="@+id/starview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="1.5" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/userview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최이름"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/uidview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 172 183 47"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+
+
+            <RatingBar
+                android:id="@+id/starview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.5" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/dateTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정이름"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/uidview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="177 73 28 29"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+
+
+            <RatingBar
+                android:id="@+id/starview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="2.0" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+</ScrollView>

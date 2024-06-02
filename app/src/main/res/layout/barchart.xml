@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary">
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <!-- 첫 번째 날짜와 별점 요소 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/dateTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023-11-05  "
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="3.5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:src="@drawable/food1"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/menutext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="===== 메뉴1 =====
+                            == 잡채덮밥"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <!-- 두 번째 날짜와 별점 요소 (필요에 따라 추가) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/dateTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023-11-04  "
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="4.0" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:src="@drawable/food2"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/menutext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="===== 메뉴2 =====
+                        == 콩나물밥"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+
+
+
+        <!-- 다른 날짜와 별점 요소를 필요에 따라 추가 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/dateTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2023-11-03  "
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="16dp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:rating="2.0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:src="@drawable/food3"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:id="@+id/menutext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="===== 메뉴3 =====
+                        == 부대찌개"
+
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="20dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
