@@ -1,7 +1,7 @@
 # Janban-Stop-Project
 
 ## 아두이노를 활용한 식단 개선 프로젝트, 잔반 멈춰!
-
+> bluetooth 통신과 nfc태그를 활용한 학생들의 잔반을 측정하는 모듈과 잔반량에 따른 급식 만족도 평가를 확인하는 Android Studio로 개발한 어플리케이션 JanbanStop      
 
 
 
